@@ -1,0 +1,18 @@
+@font-face {
+	font-family: 'iransans_web';
+	src: url('iransans_bold.woff') format('woff');
+	font-weight: bold;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'iransans_web';
+	src:  url('iransans.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('fontawesome-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}

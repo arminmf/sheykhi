@@ -1,0 +1,18 @@
+
+	<link rel="stylesheet" href="jspc-royal_blue.css">
+	<script type="text/javascript" src="js-persian-cal.min.js"></script>
+
+
+		<label for="pcal5">تاریخ ۵ - همراه پر کردن فیلد اضافی</label><br>
+		<input type="text" id="pcal5" class="pdate"><br>
+		<input type="text" id="extra" class="pdate wide">
+	</div>
+
+	<script type="text/javascript">
+
+		var objCal5 = new AMIB.persianCalendar( 'pcal5', {
+				extraInputID: 'extra',
+				extraInputFormat: 'JD'
+			}
+		);
+	</script>
